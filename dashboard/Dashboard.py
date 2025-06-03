@@ -6,7 +6,7 @@ import seaborn as sns
 st.set_page_config(page_title="Dashboard Produk", layout="wide")
 st.title("📊 Dashboard Analisis Kinerja Penjualan")
 
-df = pd.read_csv('all_data.csv') # ← ini yang benar
+df = pd.read_csv('https://raw.githubusercontent.com/AleisyaZahari/Project-Data-Analytics-with-Streamlit/main/dashboard/all_data.csv') # ← ini yang benar
 
 # Sidebar filter (opsional)
 with st.sidebar:
